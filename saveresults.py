@@ -5,6 +5,8 @@ from load_rules import *
 
 from pathlib import Path
 
+#this file contains code which extracts the information from router2's SMSs and puts it in a file
+
 def SMSInfo(headers2, rule, router2_url):
     try:
         res=requests.get(f"{router2_url}interfaces/config/mob1s1a1",headers=headers2)

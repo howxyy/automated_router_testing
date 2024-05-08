@@ -2,6 +2,8 @@ import json
 
 from pathlib import Path
 
+#this file contains code, which loads the rule triggers from rule.json
+
 def loadrule():
     try:
         file_path = Path(__file__).parent / "rule.json"

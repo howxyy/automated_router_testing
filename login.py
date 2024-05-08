@@ -4,6 +4,8 @@ import requests
 from getpass import getpass
 from pathlib import Path
 
+#this file contains code which allows the user to connect to router1 and router2
+
 def apiLogin1(router1_name, router1_password, router1_url):
     apilogin_file_path = Path(__file__).parent / "login.json"
     try:

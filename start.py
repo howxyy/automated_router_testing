@@ -1,5 +1,7 @@
 import program
     
+    #this file starts the main program
+    
 def main(): 
     program.runProgram()
 

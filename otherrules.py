@@ -4,6 +4,8 @@ import time
 import paramiko
 import socket
 
+#this file contains the code with other miscellaneous rules that are being triggered during the test
+
 from pathlib import Path
 from paramiko.ssh_exception import NoValidConnectionsError
 

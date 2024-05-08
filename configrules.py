@@ -2,6 +2,8 @@ import requests
 import json
 import time
 
+#This file contains code with all the configuration rules that are being triggered during the test
+
 def testConfigAllRule(headers, url, rule):
     try:
         event = "config"

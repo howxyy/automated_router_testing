@@ -4,6 +4,8 @@ from saveresults import *
 from login import *
 from colorama import Fore, Style
 
+#this file contains the main runner code
+
 def runProgram():
         
     """apilogin_file_path = Path(__file__).parent / "login.json"
@@ -23,6 +25,8 @@ def runProgram():
     successful_tests = 0
     failed_tests = 0
 
+#code to login into the routers
+
     router1_name, router1_password, router1_ip, router1_url = router1Login()
     while True:
         if apiLogin1(router1_name, router1_password, router1_url) == False:
@@ -40,9 +44,14 @@ def runProgram():
             headers2=apiLogin2(router2_name, router2_password,router2_url)
             break
     
+    #prints router1 product name
+    
     response=requests.get(f"{router1_url}device/info",headers=auth1(headers1))
     product_name=response.json()["data"]["mnfinfo"]["name"]
     print(f"\nProduct name: {product_name}\n")
+    
+    #main program
+    
     while True:
         try:
             user_input=input("Input a command: ")  
