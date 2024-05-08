@@ -1,0 +1,15 @@
+{
+	"apilogin":
+	{
+		"username":"admin", 
+		"password":"admin01",
+		"url":"http://192.168.1.1/api/",
+		"ip":"192.168.1.1"
+	},
+	"apilogin2":
+	{
+		"username":"admin", 
+		"password":"admin01",
+		"url":"http://192.168.2.1/api/"
+	}
+}

@@ -1,0 +1,477 @@
+{
+    "data": {
+        ".type": "rule",
+        "action": "sendSMS",
+        "enable": "1",
+        "event": "Config",
+        "eventMark": "all",
+        "id": "cfg0192bd",
+        "message": "Router name - %rn | Event type - %et | Event text - %ex | Timestamp - %ts",
+        "recipient_format": "single",
+        "telnum": "+37066314209"
+    },
+    "expected_number": {
+        "telnum": "+37063674686"
+    },
+    "enabled1": {
+        "data": {
+            "enabled": "1"
+        }
+    },
+    "enabled0": {
+        "data": {
+            "enabled": "0"
+        }
+    },
+    "enable1": {
+        "data": {
+            "enable": "1"
+        }
+    },
+    "enable0": {
+        "data": {
+            "enable": "0"
+        }
+    },
+    "new_id": {
+        "data": {
+            "id": "test"
+        }
+    },
+    "buttons1": {
+        "data": {
+            "max": "20",
+            "min": "18"
+        }
+    },
+    "buttons0": {
+        "data": {
+            "max": "20",
+            "min": "15"
+        }
+    },
+    "call_utils": {
+        "data": {
+            ".type": "rule",
+            "action": "reboot",
+            "enabled": "1",
+            "id": "cfg0192bd",
+            "value": "1"
+        }
+    },
+    "chilli": {
+        "data": {
+            ".type": "group",
+            "day": "2",
+            "id": "cfg0246f2",
+            "name": "test",
+            "period": "3"
+        }
+    },
+    "ddns": {
+        "data": {
+            "username": "test"
+        }
+    },
+    "dhcp": {
+        "data": {
+            ".type": "host",
+            "id": "cfg04fe63"
+        }
+    },
+    "dropbear1": {
+        "data": {
+            "_sshWanAccess": "1"
+        }
+    },
+    "dropbear0": {
+        "data": {
+            "_sshWanAccess": "0"
+        }
+    },
+    "email_to_sms1": {
+        "data": {
+            "min": "2"
+        }
+    },
+    "email_to_sms0": {
+        "data": {
+            "min": "1"
+        }
+    },
+    "etherwake1": {
+        "data": {
+            "broadcast": "1"
+        }
+    },
+    "etherwake0": {
+        "data": {
+            "broadcast": "0"
+        }
+    },
+    "firewall1": {
+        "data": {
+            "drop_invalid": "1"
+        }
+    },
+    "firewall0": {
+        "data": {
+            "drop_invalid": "0"
+        }
+    },
+    "fstab1": {
+        "data": {
+            "auto_sync": "1"
+        }
+    },
+    "fstab0": {
+        "data": {
+            "auto_sync": "0"
+        }
+    },
+    "hostblock1": {
+        "data": {
+            "mode": "blacklist"
+        }
+    },
+    "hostblock0": {
+        "data": {
+            "mode": "whitelist"
+        }
+    },
+    "landingpage": {
+        "data": {
+            ".type": "landing",
+            "auth_proto": "pap",
+            "id": "general",
+            "theme": "test"
+        }
+    },
+    "mosquitto1": {
+        "data": {
+            ".type": "mqtt",
+            "acl_file_path": "",
+            "allow_ra": "0",
+            "anonymous_access": "0",
+            "custom_enabled": "0",
+            "enabled": "1",
+            "local_port": [
+                "1883"
+            ],
+            "max_packet_size": "1048576",
+            "max_queued_messages": "1000",
+            "password_file": "",
+            "persistence": "0",
+            "use_tls_ssl": "0"
+        }
+    },
+    "mosquitto0": {
+        "data": {
+            ".type": "mqtt",
+            "acl_file_path": "",
+            "allow_ra": "0",
+            "anonymous_access": "0",
+            "custom_enabled": "0",
+            "enabled": "0",
+            "local_port": [
+                "1883"
+            ],
+            "max_packet_size": "1048576",
+            "max_queued_messages": "1000",
+            "password_file": "",
+            "persistence": "0",
+            "use_tls_ssl": "0"
+        }
+    },
+    "mqtt_pub1": {
+        "data": {
+            ".type": "mqtt_pub",
+            "client_id": "",
+            "enabled": "1",
+            "pub_prefix": "",
+            "remote_addr": "test",
+            "remote_port": "1883",
+            "sub_prefix": "",
+            "tls": "0",
+            "username": ""
+        }
+    },
+    "mqtt_pub0": {
+        "data": {
+            ".type": "mqtt_pub",
+            "client_id": "",
+            "enabled": "0",
+            "pub_prefix": "",
+            "remote_addr": "",
+            "remote_port": "1883",
+            "sub_prefix": "",
+            "tls": "0",
+            "username": ""
+        }
+    },
+    "multi_wifi1": {
+        "data": {
+            "mode": "multi_ap"
+        }
+    },
+    "multi_wifi0": {
+        "data": {
+            "mode": "ap",
+            "key": "test1234"
+        }
+    },
+    "openvpn": {
+        "data": {
+            "id": "test",
+            "type": "server"
+        }
+    },
+    "new_name": {
+        "data": {
+            "name": "test"
+        }
+    },
+    "periodic_reboot": {
+        "data": {
+            "days": [
+                "sun"
+            ]
+        }
+    },
+    "post_get1": {
+        "data": {
+            "enabled": "1",
+            "password": "Test1234",
+            "password_confirm": "Test1234",
+            "username": "test"
+        }
+    },
+    "post_get0": {
+        "data": {
+            "enabled": "0",
+            "password": "",
+            "password_confirm": "",
+            "username": ""
+        }
+    },
+    "quota_limit1": {
+        "data": {
+            ".type": "interface",
+            "auto_apn": "1",
+            "data_limit": "1000",
+            "delegate": "1",
+            "dns": [],
+            "enable_warning": "0",
+            "enabled": "1",
+            "force_link": "0",
+            "fwzone": "wan",
+            "ip4table": "",
+            "method": "nat",
+            "metric": "3",
+            "mob_limit_enabled": "1",
+            "mtu": "",
+            "pdptype": "ip",
+            "period": "day",
+            "proto": "wwan",
+            "reset_hour": "0",
+            "sim": "1"
+        }
+    },
+    "quota_limit0": {
+        "data": {
+            ".type": "interface",
+            "auto_apn": "1",
+            "data_limit": "",
+            "delegate": "1",
+            "dns": [],
+            "enable_warning": "",
+            "enabled": "1",
+            "force_link": "0",
+            "fwzone": "wan",
+            "ip4table": "",
+            "method": "nat",
+            "metric": "3",
+            "mob_limit_enabled": "0",
+            "mtu": "",
+            "pdptype": "ip",
+            "period": "",
+            "proto": "wwan",
+            "reset_hour": "",
+            "sim": "1"
+        }
+    },
+    "rpcd": {
+        "data": {
+            "group": "user",
+            "password": "Teltonika1",
+            "username": "asd"
+        }
+    },
+    "rs": {
+        "data": {
+            "device": "/dev/rs232",
+            "name": "test"
+        }
+    },
+    "rs_modbus": {
+        "data": {
+            "device": "/dev/rs232",
+            "id": "1",
+            "modbus_ip": "10.0.0.0",
+            "modbus_port": "1"
+        }
+    },
+    "sim_switch1": {
+        "data": {
+            ".type": "sim",
+            "data_limit": "0",
+            "denied": "0",
+            "enabled": "1",
+            "fail_flag": "0",
+            "interval": "30",
+            "no_network": "0",
+            "on_signal": "0",
+            "retry_count": "3",
+            "roaming": "0",
+            "sms_limit": "0"
+        }
+    },
+    "sim_switch0": {
+        "data": {
+            ".type": "sim",
+            "data_limit": "",
+            "denied": "",
+            "enabled": "0",
+            "fail_flag": "",
+            "interval": "",
+            "no_network": "",
+            "on_signal": "",
+            "retry_count": "",
+            "roaming": "",
+            "sms_limit": ""
+        }
+    },
+    "simcard1": {
+        "data": {
+            "deny_roaming": "1"
+        }
+    },
+    "simcard0": {
+        "data": {
+            "deny_roaming": "0"
+        }
+    },
+    "sms_gateway1": {
+        "data": {
+            "delete_sms": "1"
+        }
+    },
+    "sms_gateway0": {
+        "data": {
+            "delete_sms": "0"
+        }
+    },
+    "snmptrap1": {
+        "data": {
+            "port": "161"
+        }
+    },
+    "snmptrap0": {
+        "data": {
+            "port": "162"
+        }
+    },
+    "uhttpd1": {
+        "data": {
+            "_httpsWanAccess": "1"
+        }
+    },
+    "uhttpd0": {
+        "data": {
+            "_httpsWanAccess": "0"
+        }
+    },
+    "ulogd1": {
+        "data": {
+            "interval": "2"
+        }
+    },
+    "ulogd0": {
+        "data": {
+            "interval": "1"
+        }
+    },
+    "widget1": {
+        "data": {
+            "position": "2"
+        }
+    },
+    "widget0": {
+        "data": {
+            "position": "1"
+        }
+    },
+    "wifi_scanner1": {
+        "data": {
+            "five_g_enabled": "1"
+        }
+    },
+    "wifi_scanner0": {
+        "data": {
+            "five_g_enabled": "0"
+        }
+    },
+    "xl2tpd": {
+        "data": {
+            "id": "test",
+            "limit": "192.168.0.30",
+            "localip": "192.168.0.1",
+            "start": "192.168.0.20"
+        }
+    },
+    "Mobile Data": {
+        "data": {
+            "modem_id": "3-1"
+        }
+    },
+    "SIM Switch1": {
+        "data": {
+            ".type": "sim",
+            "band": "auto",
+            "deny_roaming": "0",
+            "enable_sms_limit": "0",
+            "operlist": "0",
+            "pincode": "",
+            "primary": "1",
+            "service": "lte_pref",
+            "signal_reset_enabled": "0",
+            "volte": "auto"
+        }
+    },
+    "FailoverWAN": {
+        "data": {
+            "count": "1",
+            "down": "3",
+            "enabled": "1",
+            "family": "ipv4",
+            "group": "1",
+            "id": "wan",
+            "interval": "3",
+            "metric": "1",
+            "network_type": "wired",
+            "ratio": "1",
+            "reliability": "1",
+            "track_ip": [
+                "1.1.1.1",
+                "8.8.8.8"
+            ],
+            "track_method": "ping",
+            "up": "3"
+        }
+    },
+    "delete_sms": {
+        "data": {
+            "0": "0"
+        }
+    }
+}
